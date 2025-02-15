@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "goit-ds-hw-02"
+version = "0.1.0"
+description = ""
+authors = ["Ihor Moroz <ihorm.200323@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+pydantic-settings = "^2.7.0"
+faker = "^36.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
